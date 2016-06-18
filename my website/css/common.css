@@ -1,0 +1,130 @@
+
+
+
+
+section{position: relative}
+
+
+.arrow{
+  content: ''
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border: 5px solid #fff8fb;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  border-bottom: none;
+  border-right: none;
+  bottom: 30px; left: 50%;
+  -webkit-animation:wheel 2s infinite;
+  animation:wheel 2s infinite;}
+
+  .arrow:hover{border-color: #374169; }
+
+
+  @-webkit-keyframes wheel{0%{bottom:30px}20%{bottom:55px}100%{bottom:30px}}
+  @keyframes wheel{0%{bottom:30px}20%{bottom:55px}100%{bottom:30px}}
+
+
+
+
+
+
+
+/* about */
+
+.about {color: #888888; text-align: center; width: 100%; padding: 30px 0;}
+.about .container {height: 100%;}
+.about-content{max-width: 650px; margin-left: auto; margin-right: auto;}
+	@media only screen and (min-width: 620px) {
+		.is-snap-scroll .about-content {width: 70%; position: absolute; top: 50%; left: 50%; width: 70%; max-width: 650px;
+			-webkit-transform: translate(-50%, -50%);
+			-moz-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);}
+	}
+.about img {width: 100px; height: 100px; display: block;}
+	@media only screen and (min-width: 620px) {
+		.about img {width: 130px; height: 130px;}
+	}
+.about figure {display: inline-block; padding: 38px; border-radius: 100%; background: #ffece9;
+                 position: relative; overflow: visible;margin-bottom: 60px;
+  	             -webkit-animation: colorChanger 60000ms linear infinite;
+  	             -moz-animation: colorChanger 60000ms linear infinite;
+  	             animation: colorChanger 60000ms linear infinite;}
+  	@media only screen and (min-width: 620px) {
+  		.about figure {margin-bottom: 80px;}
+  	  }
+.about figcaption {position: absolute; bottom: -55px; width: 100%; left: 0; font-size: 14px;
+  	               text-transform: uppercase; font-weight: bold; letter-spacing: 3px;}
+.about h2 {font-size: 28px; margin-bottom: 20px;font-family:Helvetica; font-weight:100; color:#888888; line-height:64px;
+   text-align:center}
+    @media only screen and (min-width: 620px) {
+      .about h2 {font-size: 48px; line-height: 60px; margin-bottom: 30px;}
+	    }
+.about p {font-size: 14px; line-height: 20px; display: inline;}
+    @media only screen and (min-width: 620px) {
+		  .about p {display: block; font-size: 18px; line-height: 28px;}
+	    }
+.about a {color: #f47d9a; font-weight: 800;}
+
+/* work */
+.container{max-width: 1280px; margin: 0 auto; padding: 30px 60px 0px;}
+.container:after{content: ""; display: block; clear: both}
+.row{margin: 0px -30px; margin-top: 30px}
+.col{width: 33.3333%; float:left}
+
+
+.work{margin:0 -20px;}
+.work figure{position:relative;overflow:hidden;-webkit-transition:cubic-bezier(.77,0,.175,1).5s;
+             transition:cubic-bezier(.77,0,.175,1).5s; border-radius:3px;
+             box-shadow:0 2px 4px rgba(225,225,225,.3);border:4px solid #fff; box-sizing:border-box}
+.work figure img{width:100%; height:auto; display:block; -webkit-transform-origin:center;
+                 -ms-transform-origin:center; transform-origin:center;
+                 -webkit-transition:all 5s; transition:all 5s; position:relative;z-index:0}
+.work figure figcaption{position:absolute; display:block; right:0; bottom:0; top:0; width:100%;
+                        background-color:#f2ebee; opacity:0;
+                        -webkit-transform-origin:center;
+                        -ms-transform-origin:center;
+                        transform-origin:center; -webkit-transition:cubic-bezier(.77,0,.175,1).5s;
+                        transition:cubic-bezier(.77,0,.175,1).5s; z-index:1; overflow:hidden;
+                        -webkit-clip-path:circle(0 at 50% 50%);clip-path:circle(0 at 50% 50%)}
+.work figure figcaption div{position:absolute; left:50%; top:50%; opacity:0;
+                            -webkit-transition:cubic-bezier(.77,0,.175,1).5s; transition:cubic-bezier(.77,0,.175,1).5s;
+                            -webkit-transition-delay:.2s; transition-delay:.2s; -webkit-transform:translate(-50%,-30%);
+                            -ms-transform:translate(-50%,-30%); transform:translate(-50%,-30%);
+                            width:500px;text-align:center}
+.work figure strong{width:100%; font-family:Helvetica; font-weight:900; font-size:18px; display:block; color:#888888}
+.work figure span{width:100%; font-family:Helvetica; font-weight:400; display:block; color:#888888; opacity:.75}
+.work figure:hover{-webkit-transform:translateY(-10px); -ms-transform:translateY(-10px); transform:translateY(-10px); box-shadow:0 12px 10px rgba(0,0,0,.2)}
+.work figure:hover figcaption{opacity:.9; -webkit-clip-path:circle(100% at 50% 50%);
+                              clip-path:circle(100% at 50% 50%)}
+.work figure:hover div{-webkit-transform:translate(-50%,-50%); -ms-transform:translate(-50%,-50%);
+                       transform:translate(-50%,-50%); opacity:1}
+.work figure:hover i{-webkit-transform:translate(-50%,-20px);
+                     -ms-transform:translate(-50%,-20px);
+                     transform:translate(-50%,-20px)}
+
+
+/* socials */
+
+#socials{margin-top: 0px; text-align: center}
+#socials li{display:inline-block}
+#socials li a{display:block; width:48px; height:48px; margin:0 10px; background:red;
+              border-radius:24px; background-position:center center; background-repeat:no-repeat;
+              -webkit-transition:cubic-bezier(.77,0,.175,1).2s; transition:cubic-bezier(.77,0,.175,1).2s;
+              -webkit-transform-origin:center; -ms-transform-origin:center; transform-origin:center;
+              -webkit-transform:scale(1); -ms-transform:scale(1); transform:scale(1);}
+#socials li a:hover{cursor: pointer; -webkit-transform:scale(1.25); -ms-transform:scale(1.25); transform:scale(1.25)}
+#socials li a span{display:none}
+#socials li a#dribbble{background-color:#eaeaea; background-image:url(../img/dribbble.png)}
+#socials li a#behance{background-color:#eaeaea;background-image:url(../img/behance.png)}
+#socials li a#linkedin{background-color:#eaeaea;background-image:url(../img/linkedin.png)}
+#socials li a#facebook{background-color:#eaeaea;background-image:url(../img/facebook.png)}
+#socials li a#pinterest{background-color:#eaeaea;background-image:url(../img/pinterest.png)}
+
+
+.footer{text-align: center; padding-top: 100px; padding-bottom: 80px; font-size: 10px; font-family: Helvetica; color: #c5c5c5}
