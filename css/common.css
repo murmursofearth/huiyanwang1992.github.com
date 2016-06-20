@@ -20,7 +20,7 @@ section{position: relative}
   transform: rotate(-135deg);
   border-bottom: none;
   border-right: none;
-  bottom: 55px; left:49%;
+  bottom: 55px; left:48%;
   -webkit-animation:wheel 2s infinite;
   animation:wheel 2s infinite;}
 
