@@ -139,7 +139,6 @@ section{position: relative}
 #socials li a#linkedin{background-color:#eaeaea;background-image:url(../img/linkedin.png)}
 #socials li a#facebook{background-color:#eaeaea;background-image:url(../img/facebook.png)}
 #socials li a#zhihu{background-color:#eaeaea;background-image:url(../img/zhihu.png)}
-#socials li a#pinterest{background-color:#eaeaea;background-image:url(../img/pinterest.png)}
 
 @media(max-width:768px)
    {#socials li a{margin: 10px 10px;}
