@@ -98,9 +98,21 @@ body{margin:0px;padding:0px;}
   @media(max-width:768px)
      {.arrow{display: none}}
 
+#next{margin: 0 auto; width: 148px;}
+#next a{margin: 10px;float:left; font-family: Bariol-Regular; font-size: 16px; letter-spacing: 1px;
+         text-decoration: none}
+.symbol a{color:#9b9b9b;}
+.back a{color:#9b9b9b;}
+.next a{color:#9b9b9b;}
+.back a:hover{color:#0de2df; transition: 1s color;}
+.next a:hover{color:#0de2df; transition: 1s color;}
 
 
-footer {width: 100%; margin-top: 60px;}
+#one{text-align: center; }
+#one a{text-decoration: none;font-family: Bariol-Regular; font-size: 16px; letter-spacing: 1px;}
+
+
+footer {width: 100%; margin-top: 80px;}
 .copyright{color:#9b9b9b; text-align: center; font-family: Bariol-Regular; font-size: 11px; letter-spacing: 1.5px;}
 #footer-content {background: #eeeeee;}
 #footer-content .container {padding-top:60px;padding-bottom:40px;display:table;}
