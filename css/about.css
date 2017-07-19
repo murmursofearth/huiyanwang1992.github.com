@@ -1,0 +1,124 @@
+.about-title{margin: 70px 10px 30px; font-family: Bariol Bold; letter-spacing: 3px; font-size: 25px}
+.identity{margin: 10px 10px; font-family: Bariol Bold; letter-spacing: 2px; font-size: 16px}
+.intro{margin: 20px 10px 70px; font-family: Bariol-Regular; letter-spacing: 1px; font-size: 16px}
+.content-title{margin: 40px 10px; font-family: Bariol Bold; letter-spacing: 3px; font-size: 14px; width: 50%}
+
+
+.one_half {width: 47%;
+		float: left;
+		margin-top: -10px;
+		margin-left: -30px;
+		margin-bottom: 20px;
+		margin-right: 11%;
+		position: relative;}
+
+		.last {
+				margin-right:0;
+			}
+
+
+/* Progress Bars */
+
+	.progress-bar {
+		text-align: left!important;
+		margin: 0px!important;
+	}
+
+	ul.progress-bar {
+		margin:0;
+	}
+
+	.progress-bar li {
+		list-style: none!important;
+		cursor:pointer;
+	}
+
+	.progress-bar li i {
+		margin:0;
+	}
+
+	.progress-bar li:last-child span {
+		margin-bottom: 50px;
+	}
+
+	.progress-bar li .bar-wrap {
+		margin-bottom:20px;
+		background-color: #eee;
+	}
+
+	.progress-bar li span {
+		height: 10px;
+		width: 0px;
+		display: block;
+		background-color: #000;
+		transition:background-color 0.2s ease 0s;
+		-moz-transition:background-color 0.2s ease 0s;
+    	-webkit-transition:background-color 0.2s ease 0s;
+    	-o-transition:background-color 0.2s ease 0s;
+	}
+
+	.progress-bar li:hover span {
+		background-color: #0de2df;
+	}
+	.progress-bar li p {
+		margin-bottom:5px;
+		font-family:Bariol-Regular;
+		font-weight:400;
+		font-size:16px;
+		letter-spacing:1px;
+	}
+
+	.progress-bar li span {
+		overflow: visible!important;
+		position: relative;
+	}
+
+	.progress-bar li span strong {
+		position: absolute;
+		right: -0px;
+		top: -25px;
+		padding: 4px 0px;
+		color: #000;
+		line-height: 12px;
+		font-family: Bariol-Regular;
+		font-size: 13px;
+		letter-spacing: 1px;
+		opacity: 0;
+		display: block;
+	}
+
+	.progress-bar li span strong i {
+		font-style:normal;
+	}
+
+	.progress-bar li span strong.full:after {
+		left: 15px;
+	}
+
+	.progress-bar li span strong.full {
+		width: 43px;
+		text-align: center;
+	}
+
+
+	/* socials */
+
+	#socials{margin-top: -50px; margin-left: -160px; }
+	#socials li{display:inline-block}
+	#socials li a{display:block; width:48px; height:48px; margin:0 10px; background:red;
+	              border-radius:24px; background-position:center center; background-repeat:no-repeat;
+	              -webkit-transition:cubic-bezier(.77,0,.175,1).2s; transition:cubic-bezier(.77,0,.175,1).2s;
+	              -webkit-transform-origin:center; -ms-transform-origin:center; transform-origin:center;
+	              -webkit-transform:scale(1); -ms-transform:scale(1); transform:scale(1);}
+	#socials li a:hover{cursor: pointer; -webkit-transform:scale(1.25); -ms-transform:scale(1.25); transform:scale(1.25)}
+	#socials li a span{display:none}
+	#socials li a#dribbble{background-color:#eaeaea; background-image:url(../img/dribbble.png)}
+	#socials li a#behance{background-color:#eaeaea;background-image:url(../img/behance.png)}
+	#socials li a#linkedin{background-color:#eaeaea;background-image:url(../img/linkedin.png)}
+	#socials li a#facebook{background-color:#eaeaea;background-image:url(../img/facebook.png)}
+	#socials li a#instagram{background-color:#eaeaea;background-image:url(../img/instagram.png)}
+	#socials li a#zhihu{background-color:#eaeaea;background-image:url(../img/zhihu.png)}
+
+	@media(max-width:768px)
+	   {#socials li a{margin: 10px 10px;}
+	    #socials{margin-top: 10px; text-align: center}}

@@ -1,0 +1,59 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2964300, 2015-02-02T12:19:45-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: BrandonText-Bold by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/bold/
+ *
+ * Webfont: BrandonText-Regular by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/regular/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2964300
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2012 by Hannes von Doehren. All rights reserved.
+ *
+ * 漏 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2d3b4c");
+
+
+@font-face {font-family: 'BrandonText-Bold';src: url('../fonts/2D3B4C_0_0.eot');src: url('../fonts/2D3B4C_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2D3B4C_0_0.woff2') format('woff2'),url('../fonts/2D3B4C_0_0.woff') format('woff'),url('../fonts/2D3B4C_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'BrandonText-Regular';src: url('../fonts/2D3B4C_1_0.eot');src: url('../fonts/2D3B4C_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2D3B4C_1_0.woff2') format('woff2'),url('../fonts/2D3B4C_1_0.woff') format('woff'),url('../fonts/2D3B4C_1_0.ttf') format('truetype');}
+
+@font-face {
+    font-family: 'Bariol-Regular';
+    src: url('../fonts/bariol_regular.eot');
+    src: url('../fonts/bariol_regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bariol_regular.woff2') format('woff2'),
+         url('../fonts/bariol_regular.woff') format('woff'),
+         url('../fonts/bariol_regular.ttf') format('truetype'),
+         url('../fonts/bariol_regular.svg#bariol_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Bariol-Bold';
+    src: url('../fonts/bariol_bold.eot');
+    src: url('../fonts/bariol_bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bariol_bold.woff2') format('woff2'),
+         url('../fonts/bariol_bold.woff') format('woff'),
+         url('../fonts/bariol_bold.ttf') format('truetype'),
+         url('../fonts/bariol_bold.svg#bariol_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
